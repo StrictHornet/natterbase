@@ -17,7 +17,7 @@ var validateRequest = (data, rules) => {
       res.push(element);
     }
   });
-  if (res.length == 0) {
+  if (!res.length) {
     return "Valid";
   }
   return res;
