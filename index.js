@@ -1,3 +1,4 @@
+/*
 // Imports
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -38,7 +39,7 @@ app.post("/validate", (req, res) => {
   var obj = validateRequest(req.body[0], req.body[1]);
   res.send(obj);
 });
-
+*/
 // defining an endpoint to validate remove item
 app.post("/remove", (req, res) => {
   var obj = removeItem(req.body[0], req.body[1]);
