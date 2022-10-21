@@ -1,5 +1,5 @@
 /*
-// Imports
+// Express and Parser Imports
 const express = require("express");
 const bodyParser = require("body-parser");
 
