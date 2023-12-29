@@ -1,2 +1,2 @@
-# natterbase repository [redacted]
+# natterbase repository
 
